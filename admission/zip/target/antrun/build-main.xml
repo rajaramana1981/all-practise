@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="/opt/admission/zip/mulitimodule.zip">
+    <zipfileset dir="/opt/admission/zip/../family/target/"/>
+    <zipfileset dir="/opt/admission/zip/../student/target/"/>
+  </zip>
+</target>
+</project>
